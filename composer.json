@@ -1,0 +1,14 @@
+{
+    "name": "app/stock",
+    "autoload": {
+        "psr-4": {
+            "App\\Stock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis"
+        }
+    ],
+    "require": {}
+}

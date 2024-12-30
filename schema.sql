@@ -1,0 +1,7 @@
+CREATE TABLE stock(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    ticker VARCHAR(255) NOT NULL,
+    performanceId VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
